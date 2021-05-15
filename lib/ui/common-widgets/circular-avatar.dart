@@ -20,26 +20,3 @@ class CircularAvatar extends StatelessWidget {
     );
   }
 }
-
-// class CircularAvatar extends StatelessWidget {
-//   final double radius;
-//   final Color backgroundColor;
-//   final Widget child;
-//   final double fontSize;
-//
-//   const CircularAvatar(
-//       {@required this.radius,
-//       this.backgroundColor,
-//       this.fontSize,
-//       @required this.child,
-//       }) : assert (child != null);
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return CircleAvatar(
-//       radius: radius,
-//       backgroundColor: backgroundColor,
-//       child: child,
-//     );
-//   }
-// }
